@@ -1,0 +1,18 @@
+Para poder instalar este modulo en un servidor solo tenemos que realizar las siguientes acciones.
+
+Nota: Este modulo puede ser mejorado segun la aplicación que vayamos a hacer y el uso de la misma, esto es solo una parte de lo que se podria hacer con el.
+
+Pasos para configurarlo:
+
+1. Crear o cargar una base de datos llamada "USUARIOS" la cual esta contenida en este paquete.
+2. Localizar el archivo conexion.in.php que se encuentra en la carpeta includes y en el realizar los cambios segun sean necesario, localizar las siguientes lineas de codigo:
+
+   $host = "localhost"; //Nombre del servidor
+   $user = " ";	//Nombre de usuario de Base de datos
+   $password = " "; //Contraseña de Base de datos
+
+3. con esta configuracion hemos terminado de configurar nuestro modulo y ya puede ser puesto en marcha, este modulo no pide inicio de sesion ni permisos de usuarios ya que no es modulo terminado.
+
+4. Ejecute el archivo index.php para ver el menú
+
+Nota: en la base de datos solo se han inserado algunos paises y ciudades y pueblos.

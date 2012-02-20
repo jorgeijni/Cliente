@@ -17,7 +17,7 @@
 
 <body>
 <H1>Lista de Todos los clientes </H1>
-<div align="left"><a href="index.php">Regresar al menÃº</a></div>
+<div align="left"><a href="index.php">Regresar al menú</a></div>
 <p>&nbsp;</p>
 <form id="form1" name="form1" method="post" action="">
   <?
@@ -25,7 +25,7 @@
 	  $oConn);
 	echo"<table width=800 border=2>
 		<tr>
-		<td><b>ID</b></td><td><b>username</b></td><td><b>email</b></td><td><b>nombre</b></td><td><b>IdentificaciÃ³n</b></td>
+		<td><b>ID</b></td><td><b>username</b></td><td><b>email</b></td><td><b>nombre</b></td><td><b>Identificación</b></td>
 		</tr>";
 		while($row=mysql_fetch_row($result)){
 		  echo"<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td><td>$row[3]</td><td>$row[4]</td>

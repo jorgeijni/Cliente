@@ -17,4 +17,4 @@ function update($mensaje)
 
 	mysql_close($oConn);
 ?> 
-<div align="left"><a href="index.php">Regresar al menÃº</a></div>
+<div align="left"><a href="index.php">Regresar al menú</a></div>
